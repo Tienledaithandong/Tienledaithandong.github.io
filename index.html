@@ -1,90 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le Nam Tien | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
 
-    <header class="bg-blue-900 text-white py-12">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h1 class="text-4xl font-bold mb-2">Le Nam Tien</h1>
-            <p class="text-xl font-light mb-4">Computer Science Student | Computer Vision & ML Researcher</p>
-            <div class="flex justify-center space-x-4 text-sm">
-                <a href="mailto:tiendangstudy312@gmail.com" class="hover:text-blue-300">tiendangstudy312@gmail.com</a>
-                <span>|</span>
-                <span>0847031206</span>
-                <span>|</span>
-                <a href="https://www.linkedin.com/in/tien-le-4b7153340/" target="_blank" class="hover:text-blue-300">LinkedIn</a>
-            </div>
-        </div>
-    </header>
+<body class="bg-gray-100 text-gray-800 p-4 md:p-8 lg:p-12 min-h-screen flex justify-center items-start">
 
-    <main class="max-w-4xl mx-auto px-4 py-8 space-y-12">
-        
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4">Education & Interests</h2>
-            <div class="mb-2">
-                <h3 class="text-lg font-semibold">Ho Chi Minh City University of Technology (HCMUT), VNU-HCM</h3>
-                <p class="text-gray-600">Bachelor Degree in Computer Science (Aug 2024 - Nov 2028) | CGPA: 3.0/4.0</p>
-            </div>
-            <p><strong>Research Interests:</strong> Computer Vision, NLP, Reinforcement Learning</p>
-        </section>
+    <div class="max-w-6xl w-full bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
 
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4">Research Activities</h2>
-            <ul class="list-disc pl-5 space-y-3">
-                <li>
-                    <strong>Mobile AI (MAI) Workshop at CVPR 2026:</strong> Co-author of <i>"Efficient INT8 Single-Image Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training"</i>. Collaborated with AIO_Owlgorithms to develop a deployment-aware INT8 quantization approach for SISR.
-                </li>
-                <li>
-                    <strong>SOICT 2025:</strong> Published a research paper in the AI Foundations and Big Data (Information Retrieval track) at the 14th International Symposium on Information and Communication Technology.
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4">Projects & Achievements</h2>
-            <div class="space-y-4">
-                <div>
-                    <h3 class="text-lg font-semibold">AIO-2025: LTSF-Linear Forecasting Challenge</h3>
-                    <p class="text-sm text-gray-500 mb-1">Nov 2025 - Dec 2025 | Ranked 6th globally</p>
-                    <p>Engineered complex temporal features and implemented linear regression-based architectures to optimize prediction accuracy. Utilized Python, Pandas, Scikit-learn, and LSTM.</p>
+        <aside class="w-full md:w-[30%] bg-slate-900 text-white p-8 md:p-10 flex flex-col justify-between">
+            <div>
+                <div
+                    class="w-32 h-32 rounded-full border-4 border-slate-700 bg-slate-800 mx-auto mb-6 flex items-center justify-center text-4xl font-bold shadow-lg">
+                    LT
                 </div>
+
+                <h1 class="text-3xl font-bold text-center mb-2 tracking-tight">Le Nam Tien</h1>
+                <p class="text-blue-400 text-center text-sm font-medium mb-8">Computer Science Student & AI Researcher
+                </p>
+
+                <div class="space-y-4 text-sm mb-10 text-slate-300">
+                    <div class="flex items-center"><i class="fas fa-envelope w-8 text-center text-blue-500"></i>
+                        tiendangstudy312@gmail.com</div>
+                    <div class="flex items-center"><i class="fas fa-phone w-8 text-center text-blue-500"></i> 0847 031
+                        206</div>
+                    <div class="flex items-center"><i class="fas fa-map-marker-alt w-8 text-center text-blue-500"></i>
+                        Ho Chi Minh City, VN</div>
+                    <div class="flex items-center"><i class="fab fa-linkedin w-8 text-center text-blue-500"></i> <a
+                            href="https://www.linkedin.com/in/tien-le-4b7153340/" target="_blank"
+                            class="hover:text-white transition-colors">LinkedIn Profile</a></div>
+                </div>
+
                 <div>
-                    <h3 class="text-lg font-semibold">Image Retrieval System for HCM-AI Challenge</h3>
-                    <p class="text-sm text-gray-500 mb-1">Jun 2025 - Oct 2025</p>
-                    <p>Built a full-stack application integrating Milvus vector database and BEIT-3 to enable high-speed multi-modal similarity search. Achieved <strong>3rd position</strong> in Group B (2024) and <strong>Promising Award</strong> in Group A (2025).</p>
+                    <h2
+                        class="text-xl font-bold border-b border-slate-700 pb-2 mb-5 uppercase tracking-wider text-slate-100">
+                        Skills</h2>
+                    <div class="mb-5">
+                        <h3 class="text-blue-400 font-semibold mb-2 text-sm uppercase">Proficient</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">C/C++, Data Structures & Algorithms,
+                            Competitive Programming (Codeforces, CSES, AtCoder)</p>
+                    </div>
+                    <div>
+                        <h3 class="text-blue-400 font-semibold mb-2 text-sm uppercase">Comfortable</h3>
+                        <p class="text-sm text-slate-300 leading-relaxed">Python, Machine Learning, Deep Learning,
+                            Calculus, Linear Algebra, Statistics & Probability</p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </aside>
 
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4">Technical Skills</h2>
-            <ul class="list-disc pl-5 space-y-2">
-                <li><strong>Proficient:</strong> C/C++, Data Structures and Algorithms, Competitive Programming (Codeforces, CSES, AtCoder).</li>
-                <li><strong>Comfortable:</strong> Python, Machine Learning, Deep Learning, Calculus, Linear Algebra, Statistics and Probability.</li>
-            </ul>
-        </section>
+        <main class="w-full md:w-[70%] p-8 md:p-12 lg:p-14 bg-white">
 
-        <section>
-            <h2 class="text-2xl font-bold border-b-2 border-blue-900 pb-2 mb-4">Certificates & Activities</h2>
-            <ul class="list-disc pl-5 space-y-2">
-                <li><strong>AIO 2025:</strong> Completing 10 of 12 Modules (currently).</li>
-                <li><strong>Technical Supporter (Winter 2025 & 2026):</strong> Instructed high school students in Robotics and Embedded programming, guiding them through building functional cars and foundational engineering logic.</li>
-            </ul>
-        </section>
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-blue-100 pb-3 mb-6 flex items-center">
+                    <span class="bg-blue-100 text-blue-600 p-2 rounded-lg mr-3"><i
+                            class="fas fa-graduation-cap text-xl"></i></span>
+                    Education
+                </h2>
+                <div class="ml-2">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                        <h3 class="text-lg font-bold text-slate-800">Ho Chi Minh City University of Technology (HCMUT)
+                        </h3>
+                        <span
+                            class="text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full whitespace-nowrap mt-2 md:mt-0">Aug
+                            2024 - Nov 2028</span>
+                    </div>
+                    <p class="text-slate-600 font-medium">Bachelor Degree in Computer Science</p>
+                    <p class="text-slate-500 text-sm mt-1">CGPA: <span
+                            class="font-semibold text-slate-700">3.0/4.0</span></p>
+                </div>
+            </section>
 
-    </main>
+            <section class="mb-12">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-blue-100 pb-3 mb-6 flex items-center">
+                    <span class="bg-blue-100 text-blue-600 p-2 rounded-lg mr-3"><i
+                            class="fas fa-microscope text-xl"></i></span>
+                    Research Activities
+                </h2>
+                <p
+                    class="text-sm font-medium text-blue-700 mb-6 bg-blue-50 inline-block px-4 py-2 rounded-lg border border-blue-100">
+                    <i class="fas fa-star mr-2"></i>Interests: Computer Vision, NLP, Reinforcement Learning
+                </p>
+                <div class="space-y-8 ml-2">
+                    <div class="relative pl-6 border-l-2 border-slate-200">
+                        <div class="absolute w-4 h-4 bg-white border-4 border-blue-500 rounded-full -left-[9px] top-1">
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800">Mobile AI (MAI) Workshop at CVPR 2026</h3>
+                        <p class="text-slate-600 mt-2 text-sm leading-relaxed text-justify">
+                            Co-author of <span class="font-semibold text-slate-800 italic">"Efficient INT8 Single-Image
+                                Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training"</span>.
+                            Collaborated with the AIO_Owlgorithms team to develop a deployment-aware INT8 quantization
+                            approach for SISR, optimized for x3 upscaling.
+                        </p>
+                    </div>
+                    <div class="relative pl-6 border-l-2 border-slate-200">
+                        <div class="absolute w-4 h-4 bg-white border-4 border-slate-400 rounded-full -left-[9px] top-1">
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-800">SOICT 2025</h3>
+                        <p class="text-slate-600 mt-2 text-sm leading-relaxed text-justify">
+                            Published a research paper in the AI Foundations and Big Data (Information Retrieval track)
+                            at the 14th International Symposium on Information and Communication Technology.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-    <footer class="bg-gray-800 text-center text-white py-6 mt-8">
-        <p class="text-sm">&copy; 2026 Le Nam Tien. All rights reserved.</p>
-    </footer>
+            <section>
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-blue-100 pb-3 mb-6 flex items-center">
+                    <span class="bg-blue-100 text-blue-600 p-2 rounded-lg mr-3"><i
+                            class="fas fa-trophy text-xl"></i></span>
+                    Projects & Achievements
+                </h2>
+                <div class="space-y-8 ml-2">
+                    <div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                            <h3 class="text-lg font-bold text-slate-800">AIO-2025: LTSF-Linear Forecasting Challenge
+                            </h3>
+                            <span
+                                class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 md:mt-0">Nov
+                                - Dec 2025</span>
+                        </div>
+                        <p class="text-blue-600 text-sm font-bold mb-3"><i class="fas fa-medal mr-1"></i>Ranked 6th
+                            globally</p>
+                        <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                            Engineered complex temporal features and implemented linear regression-based architectures
+                            to optimize prediction accuracy for future numerical sequences. Utilized Python, Pandas,
+                            Scikit-learn, and LSTM for data preprocessing and evaluation.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-1">
+                            <h3 class="text-lg font-bold text-slate-800">Image Retrieval System for HCM-AI Challenge
+                            </h3>
+                            <span
+                                class="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full mt-2 md:mt-0">Jun
+                                - Oct 2025</span>
+                        </div>
+                        <p class="text-blue-600 text-sm font-bold mb-3">
+                            <i class="fas fa-award mr-1"></i>3rd position (Group B, 2024) | Promising Award (Group A,
+                            2025)
+                        </p>
+                        <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                            Built a full-stack application for large-scale image and event retrieval. Integrated Milvus
+                            vector database and BEIT-3 to enable high-speed multi-modal similarity search
+                            (Text-to-Image).
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
 
 </body>
+
 </html>
